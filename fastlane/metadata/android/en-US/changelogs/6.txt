@@ -1,0 +1,1 @@
+Reminders for tasks, agenda plans, due flashcards and habits, with category controls, daily practice time, permission status and a test alert. Reminder taps preserve unfinished notes. Bold uses distinct font weights and remains independent of heading size.

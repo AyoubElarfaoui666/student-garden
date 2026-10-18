@@ -1,0 +1,100 @@
+{
+  "version": "0.4.0",
+  "versionCode": 4,
+  "date": "2026-10-18",
+  "command": "./tools/build-local.sh --offline --no-daemon --no-parallel --max-workers=2 -Pkotlin.compiler.execution.strategy=in-process testDebugUnitTest lintDebug assembleDebug assembleRelease",
+  "build": "SUCCESS",
+  "tests": [
+    {
+      "name": "com.jdinohaila.studentgarden.ActivityLaunchTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.jdinohaila.studentgarden.AgendaColorTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.jdinohaila.studentgarden.BackupTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.jdinohaila.studentgarden.DeletionSnackbarTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.jdinohaila.studentgarden.LessonReminderTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.jdinohaila.studentgarden.MobileUiTest",
+      "tests": "23",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.jdinohaila.studentgarden.RecordingUiTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.jdinohaila.studentgarden.RepositoryTest",
+      "tests": "12",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.jdinohaila.studentgarden.StudyRulesTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    }
+  ],
+  "totalTests": 64,
+  "lint": {
+    "Warning": 40
+  },
+  "lintWarningsById": {
+    "ApplySharedPref": 1,
+    "UnusedAttribute": 1,
+    "AndroidGradlePluginVersion": 1,
+    "GradleDependency": 7,
+    "NewerVersionAvailable": 5,
+    "PluralsCandidate": 1,
+    "ObsoleteSdkInt": 1,
+    "UnusedResources": 7,
+    "MonochromeLauncherIcon": 1,
+    "UseKtx": 15
+  },
+  "artifacts": [
+    {
+      "file": "student-garden-0.4.0-preview.apk",
+      "bytes": 23775553,
+      "sha256": "f2c1b86adec8b2d377380510688d2c8cc798d64dd857874c2224fc6da7251a14"
+    },
+    {
+      "file": "student-garden-0.4.0-release-unsigned.apk",
+      "bytes": 3798166,
+      "sha256": "5034112b54a8e3f761f0d64a85ae331264b9a6e79f0baf968b02a7a2c6815637"
+    }
+  ]
+}

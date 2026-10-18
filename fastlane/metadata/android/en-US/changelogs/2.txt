@@ -1,0 +1,1 @@
+New mobile design with blue navigation and individual feature colors. Direct Cards tab, nine-card deck grid, reveal-first flashcards and two-by-two review buttons. Date-based study planner, gold note surfaces, individual habit colors and focus presets. Preserves existing preview data and backup format. Safer alarm scheduling after permission changes.

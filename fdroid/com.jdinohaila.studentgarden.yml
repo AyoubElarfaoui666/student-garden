@@ -1,0 +1,24 @@
+Categories:
+  - Science & Education
+  - Time
+License: Apache-2.0
+SourceCode: https://github.com/ayoubelarfaoui097-png/student-garden
+IssueTracker: https://github.com/ayoubelarfaoui097-png/student-garden/issues
+
+AutoName: Student Garden
+
+RepoType: git
+Repo: https://github.com/ayoubelarfaoui097-png/student-garden.git
+
+Builds:
+  - versionName: 0.6.0
+    versionCode: 6
+    commit: v0.6.0
+    subdir: app
+    gradle:
+      - yes
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: 0.6.0
+CurrentVersionCode: 6

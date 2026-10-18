@@ -1,0 +1,79 @@
+{
+  "version": "0.3.0",
+  "versionCode": 3,
+  "date": "2026-10-18",
+  "command": "./tools/build-local.sh testDebugUnitTest lintDebug assembleDebug assembleRelease",
+  "build": "SUCCESS",
+  "tests": [
+    {
+      "name": "com.jdinohaila.studentgarden.ActivityLaunchTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.jdinohaila.studentgarden.BackupTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.jdinohaila.studentgarden.LessonReminderTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.jdinohaila.studentgarden.MobileUiTest",
+      "tests": "19",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.jdinohaila.studentgarden.RepositoryTest",
+      "tests": "12",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.jdinohaila.studentgarden.StudyRulesTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    }
+  ],
+  "totalTests": 50,
+  "lint": {
+    "Warning": 40
+  },
+  "lintWarningsById": {
+    "ApplySharedPref": 1,
+    "UnusedAttribute": 1,
+    "AndroidGradlePluginVersion": 1,
+    "GradleDependency": 7,
+    "NewerVersionAvailable": 5,
+    "PluralsCandidate": 1,
+    "ObsoleteSdkInt": 1,
+    "UnusedResources": 7,
+    "MonochromeLauncherIcon": 1,
+    "UseKtx": 15
+  },
+  "artifacts": [
+    {
+      "file": "student-garden-0.3.0-preview.apk",
+      "bytes": 24270761,
+      "sha256": "70a67e421ea7454b477fae146d867382e62a26862bff8848fd16386937d0e148"
+    },
+    {
+      "file": "student-garden-0.3.0-release-unsigned.apk",
+      "bytes": 3766322,
+      "sha256": "6dca4c872eace7cda03655103b813cc8b9611efe3d942a2694243ce50a10aef4"
+    }
+  ]
+}

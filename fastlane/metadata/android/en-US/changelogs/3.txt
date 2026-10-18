@@ -1,0 +1,1 @@
+Local lesson review reminders with app-closed alerts and permission controls. Independent task status and planner task links. Audio can accompany picture and text cards. Failed recordings keep the previous audio. Backups now fail before writing if media is missing or import size limits would be exceeded. Jira blue navigation. Existing native data and backup formats preserved.
